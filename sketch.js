@@ -125,7 +125,7 @@ function draw() {
     gameOver.visible = true;
     textSize(20);
     fill(255);
-    text("Press Up Arrow to Restart the game!", 200,200);
+    text("Press Enter key to Restart the game!", 200,200);
   
   
     path.velocityX = 0;
@@ -142,7 +142,7 @@ function draw() {
     redCG.setLifetimeEach(-1);
 
      
-     if(keyDown("UP_ARROW")) {
+     if(keyDown("ENTER")) {
       reset();
     }
 }
